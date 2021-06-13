@@ -24,7 +24,7 @@ A ready to use build of w0rthy's original program in C++
 - vis: changes the visualization
 - wave: changes the sound
 - mixwave: mixes set waves with a percentage of one and the other, and do the same with your mix
-- vol (number): changes the sound volume to (n) (max recommended: 2)
+- vol (number): changes the sound volume (max recommended: 2)
 - demo: runs a hardcoded sorting thread that's of w0rthy's videos
 - sdemo: runs a sorting thread on the current visualization that's ordered from the slowest sorting algorithm to the fastest
 - sort sort / asort sort / ssort sort: lists each sorting algorithm
