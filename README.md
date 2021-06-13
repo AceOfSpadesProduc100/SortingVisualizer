@@ -59,7 +59,7 @@ Enter the list commands (wave wave, vis vis, etc), press enter, then enter a giv
 13. Tree Visualizer
 14. Tunnel Visualizer
 
-### Sortihg algorithms  1. Improved Bogo Sort
+### Sorting algorithms
 1. Improved Bogo Sort
 2. Bubble Sort
 3. Bitwise Radix LSD Sort (Linked)
