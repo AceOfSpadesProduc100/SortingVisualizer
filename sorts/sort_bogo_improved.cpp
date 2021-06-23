@@ -3,7 +3,7 @@
 
 void bogoImprovedSort(ArrayList<int>& arr, int l, int h) {
 	int pos = l;
-	bool success;
+	bool success = false;
 
 	int tmp;
 	int i;

@@ -93,7 +93,7 @@ static int aud_synthesize(const void* bufferIn, void* bufferOut, unsigned long b
 			auto& strm = streams[count % AUD_MAX_VIRTUAL_STREAMS];
 			if (count / AUD_MAX_VIRTUAL_STREAMS == 0) {
 				if (!strm.empty()) {
-					auto tmp = strm[strm.size() - 1];
+					auto &tmp = strm[strm.size() - 1];
 					strm.clear();
 					strm.push_back(tmp);
 				}
@@ -144,7 +144,7 @@ static int aud_synthesize(const void* bufferIn, void* bufferOut, unsigned long b
 			if(j==stepdet)
 				pos = smlpos, bias = smlbias, lbias = smllbias;
 			float& t = tvec[j];
-			AudBufferResult& e1 = streams[j][(int)pos], & e2 = streams[j][(int)pos+1];
+			AudBufferResult& e1 = streams[j][(int)pos], & e2 = streams[j][static_cast<std::vector<AudBufferResult, std::allocator<AudBufferResult>>::size_type>((int)pos)+1];
 			float tstep = e1.tstep * lbias + e2.tstep * bias;
 
 #if AUD_USE_NOISE_REDUCTION
@@ -194,7 +194,7 @@ void launchAudioThread()
 {
 	Pa_Initialize();
 
-	PaStreamParameters outParams;
+	PaStreamParameters outParams{};
 	outParams.device = Pa_GetDefaultOutputDevice();
 	if (outParams.device == paNoDevice) {
 		printf("Audio failed to initialize: No output device.\n");

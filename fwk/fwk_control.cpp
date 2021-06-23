@@ -474,7 +474,7 @@ void cmd_demo(vector<string>& args) {
 }
 
 void cmd_sdemo(vector<string>& args) {
-	auto demos_ = demos;
+	auto &demos_ = demos;
 	std::sort(demos_.begin(), demos_.end(), [&](const DemoPair& a, const DemoPair& b) {return a.sort->accessFunc(profilerRankN) >= b.sort->accessFunc(profilerRankN); });
 	for (auto& d : demos_) {
 		if (currentVisualizer != d.vis) {

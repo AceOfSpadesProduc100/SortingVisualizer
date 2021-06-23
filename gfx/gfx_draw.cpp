@@ -45,8 +45,8 @@ bool gfx_drawList(VisualizerListInfo* inf, List<int>* list, int depth = 0) {
 std::string getNumString(long long a) {
 	constexpr long long thresh = 10;
 
-	constexpr long long b = 1000 * 1000 * 1000;
-	constexpr long long m = 1000 * 1000;
+	constexpr long long b = static_cast<long long>(1000 * 1000) * 1000;
+	constexpr long long m = static_cast<long long>(1000) * 1000;
 	constexpr long long k = 1000;
 	if (a >= thresh * b) {
 		a /= b;
