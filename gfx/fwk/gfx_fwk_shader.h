@@ -15,7 +15,7 @@ void compileAllShaders();
 
 struct Shader {
 private:
-	GLuint prgrm;
+	GLuint prgrm{};
 	const char* name, * vert, * frag, * geom;
 public:
 	inline void operator()() {

@@ -11,7 +11,7 @@ extern vector<Wave*> waves;
 
 struct Wave {
 	string name = "Default Waveform";
-	float waveTable[AUD_WAVEFORM_TABLE_SIZE+1];
+	float waveTable[AUD_WAVEFORM_TABLE_SIZE + 1]{};
 
 	//Returns the amplitude associated with this waveform for the given time (0.0 <= t < 1.0)
 	inline float operator[](float t) {

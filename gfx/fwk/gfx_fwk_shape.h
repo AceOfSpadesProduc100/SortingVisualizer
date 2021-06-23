@@ -13,11 +13,11 @@ struct Shape {
 private:
 	bool constructed = false;
 public:
-	vertexVector vertices;
-	GLuint vao;
+	vertexVector vertices{};
+	GLuint vao{};
 
 private:
-	GLuint vbo;
+	GLuint vbo{};
 	bool built = false;
 
 public:

@@ -6,8 +6,8 @@
 struct RCLMatrix;
 
 struct Matrix {
-	int r, c;
-	vector<vector<MATTYPE>> mat;
+	int r{}, c{};
+	vector<vector<MATTYPE>> mat{};
 
 	Matrix() {}
 	Matrix(const Matrix& a);
@@ -40,7 +40,7 @@ struct Matrix {
 };
 
 struct RCLMatrix : public Matrix {
-	friend class Matrix;
+	friend struct Matrix;
 private:
 	Matrix real; //The real, unlocked matrix
 	vector<int> rindx, cindx; //Maps row/columns from original matrix to the locked matrix (-1 if locked)

@@ -5,15 +5,15 @@
 #define AUD_BUFFER_SZ 1000
 
 struct AudBufferEntry {
-	float tstep; //Frequency
-	Wave* wave;
+	float tstep{}; //Frequency
+	Wave* wave{};
 	float t = 0.f;
 };
 
 struct AudBufferResult {
-	float tstep;
-	Wave* wave;
-	float t;
+	float tstep{};
+	Wave* wave{};
+	float t{};
 
 	AudBufferResult() { tstep = -1.f; }
 

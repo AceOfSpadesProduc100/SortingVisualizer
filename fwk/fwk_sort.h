@@ -30,7 +30,7 @@ struct Sort {
 	enum class ListType {
 		Array,
 		Linked
-	} type;
+	} type{};
 
 	//Name of the sort
 	string name = "Default Sort";
@@ -38,8 +38,8 @@ struct Sort {
 	//Whether this sort should be profiled (false for really bad ones)
 	bool profiled = true;
 	bool ranked = true;
-	profileFunc accessFunc;
-	string accessFuncStr;
+	profileFunc accessFunc{};
+	string accessFuncStr{};
 	float sortTime = 10.f;
 
 	//How many accesses per second the algorithm should be allowed (Determines speed)

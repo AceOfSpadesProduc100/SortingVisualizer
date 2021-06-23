@@ -17,9 +17,9 @@ using mat3 = glm::mat3;
 #define NONORMAL vec3(FLT_MAX,FLT_MAX,FLT_MAX)
 
 struct vertex {
-	vec3 pos;
-	vec3 normal;
-	vec4 color;
+	vec3 pos{};
+	vec3 normal{};
+	vec4 color{};
 
 	vertex() {
 		normal = NONORMAL;

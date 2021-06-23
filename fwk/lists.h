@@ -29,16 +29,16 @@ struct ListContext;
 
 template<class T>
 struct List {
-	int sz;
+	int sz{};
 	//Parent associated list
 	List<T>* parent = nullptr;
 	//Absolute offset from main list
 	int offset = 0;
 private:
 	//Stores ListContext objects for child lists
-	vector<ListContext<T>> children;
+	vector<ListContext<T>> children{};
 	//Mutex for modifying children vector
-	sortMutex mtx_children;
+	sortMutex mtx_children{};
 public:
 	//Associates a list as a child of this one with an absolute offset
 	void associateAbs(List<T>& list, int offset);
@@ -61,9 +61,9 @@ public:
 template<class T>
 struct ListContext {
 	//The List this context wraps
-	List<int>* list;
+	List<int>* list{};
 	//The list that this list is relative to
-	List<int>* parent;
+	List<int>* parent{};
 	//The offset of this list within the relative list
 	int offset;
 

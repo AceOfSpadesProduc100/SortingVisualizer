@@ -1,1 +1,64 @@
-﻿
+﻿  fwk_control.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\fwk\fwk_sort.h(64,84): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\fwk\fwk_control.cpp(383,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  gfx_fwk_draw.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\fwk\gfx_fwk_draw.cpp(21,54): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  gfx_fwk_shader.cpp
+  gfx_fwk_visualizer.cpp
+  gfx_draw.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\fwk\fwk_sort.h(64,84): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\gfx_draw.cpp(95,62): warning C4244: 'argument': conversion from 'double' to '__int64', possible loss of data
+  gfx_main.cpp
+  gfx_request.cpp
+  shader_basic.cpp
+  shader_basic_3d.cpp
+  shader_font_2d.cpp
+  shader_font_3d.cpp
+  vis_2d_composite.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_2d_composite.cpp(19,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_2d_composite.cpp(29,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vis_basic.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_basic.cpp(19,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_basic.cpp(29,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vis_basic_galaxy.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_basic_galaxy.cpp(24,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  vis_cube_amalgam.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_cube_amalgam.cpp(35,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_cube_amalgam.cpp(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_cube_amalgam.cpp(38,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  vis_disparity_dots_2d.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_disparity_dots_2d.cpp(23,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_disparity_dots_2d.cpp(33,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vis_galaxy_spiral.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_galaxy_spiral.cpp(26,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  vis_numbers.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_numbers.cpp(19,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_numbers.cpp(29,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vis_ring_linkage.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_ring_linkage.cpp(31,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  vis_shapeview.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_shapeview.cpp(22,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  vis_special.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_special.cpp(35,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_special.cpp(38,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_special.cpp(38,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  vis_sphere_agitation.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_sphere_agitation.cpp(32,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  vis_square_grove.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_square_grove.cpp(29,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_square_grove.cpp(32,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_square_grove.cpp(32,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  vis_tile_floor.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_tile_floor.cpp(24,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_tile_floor.cpp(27,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_tile_floor.cpp(27,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  vis_tree.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\gfx\visualizers\vis_tree.cpp(35,1): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  vis_tunnel.cpp
+  matrix.cpp
+  profiler.cpp
+C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\fwk\fwk_sort.h(64,84): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  Generating Code...
+  Project1.vcxproj -> C:\Users\CDog2\OneDrive\Downloads\SortingVisualizer\x64\Debug\SortingVisualizer.exe
