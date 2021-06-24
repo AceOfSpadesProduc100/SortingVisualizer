@@ -258,6 +258,9 @@
     <ClCompile Include="headers\GLM\detail\glm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sorts\sort_stdsort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aud\fwk\aud_fwk_buf.h">
