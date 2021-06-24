@@ -5,7 +5,7 @@
 
 template<class T>
 struct ListElement {
-	T val;
+	T val{};
 
 	//Used for identifying recently-accessed elements
 	long long lastAccess = 0;

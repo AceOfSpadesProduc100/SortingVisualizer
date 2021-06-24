@@ -92,7 +92,7 @@ void gfx_drawStatus(VisualizerListInfo* inf) {
 	drawFontString2DCorrected(0, text, pos);
 	pos[1] -= vgap;
 
-	text = "  Per Second: " + getNumString(state.accessValuePer > 0.0 ? (1.0/(state.accessValuePer*state.accessValueMul)):0.0);
+	text = "  Per Second: " + getNumString((_int64)(state.accessValuePer > 0.0 ? (1.0/(state.accessValuePer*state.accessValueMul)):0.0));
 	drawFontString2DCorrected(0, text, pos);
 }
 

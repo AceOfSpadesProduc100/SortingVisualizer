@@ -32,7 +32,7 @@ namespace {
 		float el_sz;
 
 		void prepare(VisualizerListInfo* inf, List<int>* mainList, double elapsedSeconds) {
-			cam_angle += elapsedSeconds * CAM_DEG_PER_SEC;
+			cam_angle += (float)(elapsedSeconds) * CAM_DEG_PER_SEC;
 			setViewMat(rotMat(cam_mat, vec3(0.f, cam_angle, 0.f)));
 
 			side_length = ceilf(sqrtf(mainList->sz));
