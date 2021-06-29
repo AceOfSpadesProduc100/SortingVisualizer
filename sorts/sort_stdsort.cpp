@@ -7,7 +7,7 @@ namespace {
 			accessQuota = 120000;
 		}
 		void sort(ArrayList<int>& arr) {
-			std::sort(0, arr.sz);
+			std::sort(arr, 0, arr.sz);
 		}
 	} _;
 }
