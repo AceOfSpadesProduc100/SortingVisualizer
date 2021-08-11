@@ -258,7 +258,7 @@
     <ClCompile Include="headers\GLM\detail\glm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sorts\sort_stdsort.cpp">
+    <ClCompile Include="sorts\sort_hayate_shiki.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -1533,6 +1533,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="headers\ft2build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sorts\HayateShiki.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sorts\Lapse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

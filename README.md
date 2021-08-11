@@ -70,17 +70,18 @@ Enter the list commands (wave wave, vis vis, etc), press enter, then enter a giv
 8. Counting Sort
 9. Gravity Sort
 10. Gravity Sort (In Place)
-11. Heap Sort (Max)
-12. Insertion Sort
-13. Merge Sort (Aggressive Out-of-Place)
-14. Merge Sort (In Place: Standard)
-15. Merge Sort (In Place: Shaker)
-16. Merge Sort (In Place: Weave)
-17. Merge Sort (Linked)
-18. Merge Sort (Out-of-Place)
-19. Pancake Sort
-20. Quick Sort
-21. Quick Sort (Linked)
-22. Selection Sort
-23. Selection Sort (Linked)
-24. Shell Sort
+11. Hayate-Shiki
+12. Heap Sort (Max)
+13. Insertion Sort
+14. Merge Sort (Aggressive Out-of-Place)
+15. Merge Sort (In Place: Standard)
+16. Merge Sort (In Place: Shaker)
+17. Merge Sort (In Place: Weave)
+18. Merge Sort (Linked)
+19. Merge Sort (Out-of-Place)
+20. Pancake Sort
+21. Quick Sort
+22. Quick Sort (Linked)
+23. Selection Sort
+24. Selection Sort (Linked)
+25. Shell Sort

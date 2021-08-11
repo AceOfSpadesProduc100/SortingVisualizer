@@ -18,6 +18,7 @@ extern Sort* sort_cocktail_shaker;
 extern Sort* sort_counting;
 extern Sort* sort_gravity;
 extern Sort* sort_gravity_inplace;
+extern Sort* sort_hayate_shiki;
 extern Sort* sort_heap_max;
 extern Sort* sort_insertion;
 extern Sort* sort_merge_agg_oop;

@@ -243,6 +243,7 @@
     <ClCompile Include="sorts\sort_counting.cpp" />
     <ClCompile Include="sorts\sort_gravity.cpp" />
     <ClCompile Include="sorts\sort_gravity_inplace.cpp" />
+    <ClCompile Include="sorts\sort_hayate_shiki.cpp" />
     <ClCompile Include="sorts\sort_heap_max.cpp" />
     <ClCompile Include="sorts\sort_insertion.cpp" />
     <ClCompile Include="sorts\sort_merge_agg_oop.cpp" />
@@ -256,7 +257,6 @@
     <ClCompile Include="sorts\sort_selection_linked.cpp" />
     <ClCompile Include="sorts\sort_shell.cpp" />
     <ClCompile Include="sorts\sort_shuffle.cpp" />
-    <ClCompile Include="sorts\sort_stdsort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aud\aud_common.h" />
@@ -681,6 +681,8 @@
     <ClInclude Include="PA\portaudio.h" />
     <ClInclude Include="profiler\pofiler.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="sorts\HayateShiki.h" />
+    <ClInclude Include="sorts\Lapse.h" />
     <ClInclude Include="sorts\sorts.h" />
     <ClInclude Include="sorts\sorts_util.h" />
   </ItemGroup>
